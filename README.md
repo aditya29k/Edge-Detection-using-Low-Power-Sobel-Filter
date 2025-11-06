@@ -6,3 +6,5 @@ Used 64X64 size image for test.
 
 Hardware Descriptive Language: Verilog
 Hardware Veriffication Language: System Verilog
+
+RGB IMAGE -> GRAYSCALE IMAGE -> GRAYSCALE MEM FILE ->    SOBEL FILTER     -> RESULT MEM FILE 

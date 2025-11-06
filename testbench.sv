@@ -77,7 +77,7 @@ module tb();
     file = $fopen("result.mem", "a");
     forever begin
       if(intf.gradient_valid) begin
-        $display("%0h", intf.gradient);
+		  $fdisplay(file, "%0h", intf.gradient);
       end
       if(DUT.row == `HEIGHT-1  && DUT.col == `ROW_WIDTH-1) begin
         $fclose(file);
